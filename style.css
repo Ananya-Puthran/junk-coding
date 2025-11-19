@@ -8,10 +8,23 @@ button{
 }
 
 h1{
+    text-align: center;
+    text-transform: capitalize;
     color: red;
 }
 
 .main{
     background-color: brown;
     color: aliceblue;
+}
+p{
+    font-family:'Times New Roman';
+}
+
+#d1{
+    font-size: 25px;
+}
+
+#d2{
+    font-size:10px
 }
