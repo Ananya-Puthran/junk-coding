@@ -34,5 +34,19 @@ p{
     font-size: 25px;
     height:30px;
     width:100px;
-    
+    /*border-width:3px;
+    border-style: solid;
+    border-color: brown;*/
+    border:25px solid purple;
+    text-align:center;
+}
+
+.name{
+    background-color: antiquewhite;
+    width: 100px;
+    height:100px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px; /*50% here we'll get a circle*/
+    text-align:center;
 }
