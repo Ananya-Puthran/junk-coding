@@ -48,5 +48,7 @@ p{
     border-style: solid;
     border-color: brown;
     border-radius: 10px; /*50% here we'll get a circle*/
-    text-align:center;
+    padding-left:25px;
+    padding-right:25px;
+    padding:20px 10px 30px 5px;
 }
