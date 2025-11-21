@@ -12,7 +12,10 @@ div{
     width: 900px;
     border:2px solid black;
     display: flex;
-    flex-direction: column;
+    /*justify-content: flex-start;*/
+    /*justify-content: space-between;*/
+    justify-content: center;
+
 }
 #box1{
     
