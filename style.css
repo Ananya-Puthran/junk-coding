@@ -1,10 +1,37 @@
+body{
+    text-align: center;
+}
 div{
-    height:200px;
-    width:200px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#main{
+    height: 250px;
+    width: 900px;
     border:2px solid black;
-    background-image: url(flowers.avif);
-    background-size: cover;
-    position:fixed;
-    right: 0px;
-    top: 20px;
+    
+}
+#box1{
+    
+    background-color: blue;
+    
+}
+#box2{
+    
+    background-color: pink;
+    
+}
+#box3{
+    
+    background-color: yellow;
+}
+#box4{
+    
+    background-color: green;
+}
+#box5{
+    
+    background-color: purple;
 }
