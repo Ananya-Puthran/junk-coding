@@ -11,7 +11,8 @@ div{
     height: 250px;
     width: 900px;
     border:2px solid black;
-    
+    display: flex;
+    flex-direction: column;
 }
 #box1{
     
