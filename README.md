@@ -19,3 +19,10 @@ This repository contains my practice code and notes while I learn **HTML, CSS, a
 - Headings, paragraphs, links, images, lists  
 - Tables and forms  
 - Semantic tags (`<header>`, `<footer>`, `<section>`, etc.)
+
+### 2. CSS (Cascading Style Sheets)
+- Inline, internal, and external CSS  
+- Selectors, classes, IDs  
+- Box model (margin, padding, border)  
+- Flexbox, basic layouts  
+- Colors, fonts, and basic styling
