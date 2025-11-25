@@ -1,15 +1,19 @@
-div ul{
-    background-color: pink;
-    display: flex;
-    justify-content: space-evenly;
+*{
+    justify-content: center;
 }
-a{
-    text-decoration: none;
-    color: black;
-    background-color: blueviolet;
+#a{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: beige;
+    display: flex;
+    align-items: center;
 }
 
-li{
-    list-style-type: none;
-    
+#b{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: brown;
+     
 }
