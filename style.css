@@ -1,25 +1,17 @@
-*{
-    justify-content: center;
-}
-#a{
-    height: 500px;
-    width: 500px;
-    border: 2px solid black;
-    background-color: beige;
-    display: flex;
-    align-items: center;
+div{
+    height:100px;
+    width: 100px;
+    background-color: pink;
 }
 
-#b{
-    height: 250px;
-    width: 250px;
-    border: 2px solid black;
-    background-color: brown;
-    align-self: flex-start; /*align-self has more priority than align-items */
-    /*Here my main axis is in row ( we use justify-content:center for it */ 
-    /*And major axis is along the column (we use align-items: center for it*/
+@media(min-width:600px){
+    div{
+        background-color: red;
+    }
 }
 
-
-/*when flex-direction is column then our main axis is along the column and we use justify-content*/
-/*and for major axis we use align-items*/
+@media(min-width:300px) and (max-width:500px){
+     div{
+        background-color: blue;
+    }
+}
