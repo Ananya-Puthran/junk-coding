@@ -5,17 +5,18 @@ div{
     position: absolute;
     top: 100px;
     left:100px;
-    /* transform: scale(2) ; enlarges 2 times */
-    /* transform: scale(1,2) ; reamins same size in width but 
-    enlarges 2 times in terms of height(x,y) i.e., width,height */
-    transition: all 2s ease-in;
+    transition: all 1s ease-in;
 }
 
 div:hover{
     background-color: black;
     color:white;
     font-size: 20px;
-    transform: scale(2)
+    /* transform: translateX(200px); */
+    /* moves 200px to the right as it's mentioned as x, 
+    can move left in x axis if px is in negative */
+    transform: translate(100px, 70px)
+    /* moves down right */
 }
 
 div:active{
