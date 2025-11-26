@@ -12,11 +12,7 @@ div:hover{
     background-color: black;
     color:white;
     font-size: 20px;
-    /* transform: translateX(200px); */
-    /* moves 200px to the right as it's mentioned as x, 
-    can move left in x axis if px is in negative */
-    transform: translate(100px, 70px)
-    /* moves down right */
+    transform: skew(30deg);
 }
 
 div:active{
