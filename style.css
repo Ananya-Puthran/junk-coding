@@ -1,21 +1,25 @@
-div{
-    height:50px;
-    width: 50px;
-    position: absolute;
-    top: 100px;
-    left:100px;
-    border-radius: 50%;
-    border: 5px solid palegreen;
-    border-top: 5px solid rgb(6, 89, 6);
-    animation-name: border;
-    animation-duration: 1s;
-    animation-direction: normal;
-    animation-iteration-count: infinite;
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+
 }
 
-@keyframes border {
-    from{transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+    background-image: url(images/logo.png);
+    background-size: cover;
 }
 
 
